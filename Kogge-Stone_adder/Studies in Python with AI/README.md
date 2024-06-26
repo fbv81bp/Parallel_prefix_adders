@@ -1,1 +1,1 @@
-
+Factually speaking learning the Kogge-Stone adder's functionality was way faster and more straightfirward with the help of AI created code samples, even if none of them were fully functional. Finding the possible bugs - several one of them - and asking the model whether this or that issue shouldn't rather be fixed perhaps, was a fast paced trial and error like learning curve. Still I jad to write a fully functional code at the the end, but this altogether took hours instead the days spent with understanding the Ladner-Fisher adder.
