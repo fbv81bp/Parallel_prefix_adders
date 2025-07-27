@@ -2,10 +2,10 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity kogge_stone_adder is
-    Generic (log2width : integer := 5);
-    Port ( Ain : in STD_LOGIC_VECTOR (31 downto 0) := x"abcd1f09";
-           Bin : in STD_LOGIC_VECTOR (31 downto 0) := x"cdcdee07";
-           So : out STD_LOGIC_VECTOR (31 downto 0);
+    Generic (log2width : integer := 6);
+    Port ( Ain : in STD_LOGIC_VECTOR (2**log2width-1 downto 0) := x"54758647ab356ded";
+           Bin : in STD_LOGIC_VECTOR (2**log2width-1 downto 0) := x"cf3546e46b75eac1";
+           So : out STD_LOGIC_VECTOR (2**log2width-1 downto 0);
            Co : out STD_LOGIC);
 end kogge_stone_adder;
 
